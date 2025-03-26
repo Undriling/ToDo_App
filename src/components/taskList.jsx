@@ -52,7 +52,7 @@ const TaskList = () => {
 
                 <div className="flex justify-between items-center mt-5">
                   {task.taskType === "Outdoor" ? (
-                    <div className="font-sans px-2 mx-3 h-10 md:h-8 bg-gray-500 text-white p-1 rounded-lg text-sm">
+                    <div className="font-sans px-2 mx-3 w-30 md:w-[160px] h-12 md:h-8 bg-gray-500 text-white p-1 rounded-lg text-sm">
                       Temp:- {weather?.main?.temp}°C ,{" "}
                       {weather?.weather[0]?.description.toUpperCase()}
                     </div>
