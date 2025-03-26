@@ -1,7 +1,7 @@
 # To-Do App Project Overview
 * Live Link :- https://todoquadbtechmanash.netlify.app
 
-* Technologies Used
+# Technologies Used
 1/ React: Built using functional components and hooks for state and effect management.
 
 2/ Tailwind CSS: Used for styling and making the UI fully responsive.
@@ -23,7 +23,7 @@
 10/ Error Handling: Manages API errors gracefully for a smooth user experience.
 
 
-* Key Features & Logic - 
+# Key Features & Logic - 
 
 1/ Task Management ---
 - Users can add, delete, and prioritize tasks.
