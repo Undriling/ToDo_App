@@ -26,7 +26,8 @@ const Weather = () => {
         <p>{error}</p>
       ) : weather ? (
         <p>
-          Temp: {weather.main.temp}°C , {weather.weather[0].description.toUpperCase()}
+          Temp: {weather.main.temp}°C ,{" "}
+          {weather.weather[0].description.toUpperCase()}
         </p>
       ) : (
         <p>Loading...</p>

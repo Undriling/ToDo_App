@@ -18,7 +18,7 @@ const TaskInput = () => {
       dispatch(setDialogOpen(true));
       return;
     } else {
-        dispatch(setDialogOpen(false));
+      dispatch(setDialogOpen(false));
       dispatch(addTask({ id: uuidv4(), text: task, priority, taskType }));
       setTask("");
     }
@@ -33,6 +33,7 @@ const TaskInput = () => {
         onChange={(e) => setTask(e.target.value)}
         className="p-3 border rounded-lg w-full text-black"
       />
+
       <div className="flex gap-3">
         <div className="w-full">
           <select
@@ -45,6 +46,7 @@ const TaskInput = () => {
             <option value="Low">Low</option>
           </select>
         </div>
+
         <div className="w-full">
           <select
             className="p-2 border rounded-lg w-full mt-4 text-black"
@@ -59,7 +61,7 @@ const TaskInput = () => {
 
       <button
         onClick={user ? handleAddTask : dispatch(setDialogOpen(true))}
-        className="mt-5 w-full bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-lg">
+        className="mt-5 w-full bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-lg cursor-pointer">
         Add Task
       </button>
     </div>

@@ -1,18 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 const dialogSlice = createSlice({
-    name: "dialog",
-    initialState: {
-        open: false,
+  name: "dialog",
+  initialState: {
+    open: false,
+  },
+  reducers: {
+    setDialogOpen: (state, action) => {
+      state.open = action.payload;
     },
-    reducers: {
-        setDialogOpen: (state, action) => {
-            state.open = action.payload;
-        },
-    },
+  },
 });
-
 
 export const { setDialogOpen } = dialogSlice.actions;
 
