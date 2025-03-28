@@ -1,4 +1,5 @@
 # To-Do App Project Overview
+Assignment by QuadB Tech . Submitted on 26/03/2025
 * Live Link :- https://todoquadbtechmanash.netlify.app
 
 # Technologies Used
